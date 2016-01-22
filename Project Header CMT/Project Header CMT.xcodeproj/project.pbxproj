@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A415B8841C511458005B1AE3 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A415B8831C511458005B1AE3 /* AppKit.framework */; };
+		A415B8861C511458005B1AE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A415B8851C511458005B1AE3 /* Foundation.framework */; };
+		A415B88A1C511458005B1AE3 /* Project Header CMT.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = A415B8891C511458005B1AE3 /* Project Header CMT.xcscheme */; };
+		A415B88D1C511458005B1AE3 /* ProjectHeaderCMT.m in Sources */ = {isa = PBXBuildFile; fileRef = A415B88C1C511458005B1AE3 /* ProjectHeaderCMT.m */; };
+		A415B8901C511458005B1AE3 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A415B88F1C511458005B1AE3 /* NSObject_Extension.m */; };
+		A4C316A41C5152A900C8CE8D /* NSString+PDRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C316981C5152A900C8CE8D /* NSString+PDRegex.m */; };
+		A4C316A51C5152A900C8CE8D /* NSString+VVSyntax.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C3169B1C5152A900C8CE8D /* NSString+VVSyntax.m */; };
+		A4C316A61C5152A900C8CE8D /* NSString+VVTextGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C3169E1C5152A900C8CE8D /* NSString+VVTextGetter.m */; };
+		A4C316A71C5152A900C8CE8D /* NSTextView+VVTextGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C316A11C5152A900C8CE8D /* NSTextView+VVTextGetter.m */; };
+		A4C316A81C5152A900C8CE8D /* VVTextResult.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C316A31C5152A900C8CE8D /* VVTextResult.m */; };
+		A4D0C3F91C514D3900D71AA4 /* VVKeyboardEventSender.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D0C3F81C514D3900D71AA4 /* VVKeyboardEventSender.m */; };
+		A4D0C3FB1C514D7000D71AA4 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D0C3FA1C514D7000D71AA4 /* Carbon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A415B8801C511458005B1AE3 /* Project Header CMT.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project Header CMT.xcplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A415B8831C511458005B1AE3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		A415B8851C511458005B1AE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		A415B8891C511458005B1AE3 /* Project Header CMT.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Project Header CMT.xcscheme"; path = "Project Header CMT.xcodeproj/xcshareddata/xcschemes/Project Header CMT.xcscheme"; sourceTree = SOURCE_ROOT; };
+		A415B88B1C511458005B1AE3 /* ProjectHeaderCMT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectHeaderCMT.h; sourceTree = "<group>"; };
+		A415B88C1C511458005B1AE3 /* ProjectHeaderCMT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectHeaderCMT.m; sourceTree = "<group>"; };
+		A415B88E1C511458005B1AE3 /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		A415B88F1C511458005B1AE3 /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		A415B8911C511458005B1AE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4C316971C5152A900C8CE8D /* NSString+PDRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PDRegex.h"; sourceTree = "<group>"; };
+		A4C316981C5152A900C8CE8D /* NSString+PDRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PDRegex.m"; sourceTree = "<group>"; };
+		A4C3169A1C5152A900C8CE8D /* NSString+VVSyntax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+VVSyntax.h"; sourceTree = "<group>"; };
+		A4C3169B1C5152A900C8CE8D /* NSString+VVSyntax.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+VVSyntax.m"; sourceTree = "<group>"; };
+		A4C3169D1C5152A900C8CE8D /* NSString+VVTextGetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+VVTextGetter.h"; sourceTree = "<group>"; };
+		A4C3169E1C5152A900C8CE8D /* NSString+VVTextGetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+VVTextGetter.m"; sourceTree = "<group>"; };
+		A4C316A01C5152A900C8CE8D /* NSTextView+VVTextGetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTextView+VVTextGetter.h"; sourceTree = "<group>"; };
+		A4C316A11C5152A900C8CE8D /* NSTextView+VVTextGetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTextView+VVTextGetter.m"; sourceTree = "<group>"; };
+		A4C316A21C5152A900C8CE8D /* VVTextResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVTextResult.h; sourceTree = "<group>"; };
+		A4C316A31C5152A900C8CE8D /* VVTextResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVTextResult.m; sourceTree = "<group>"; };
+		A4D0C3F71C514D3900D71AA4 /* VVKeyboardEventSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVKeyboardEventSender.h; sourceTree = "<group>"; };
+		A4D0C3F81C514D3900D71AA4 /* VVKeyboardEventSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVKeyboardEventSender.m; sourceTree = "<group>"; };
+		A4D0C3FA1C514D7000D71AA4 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A415B87E1C511457005B1AE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D0C3FB1C514D7000D71AA4 /* Carbon.framework in Frameworks */,
+				A415B8841C511458005B1AE3 /* AppKit.framework in Frameworks */,
+				A415B8861C511458005B1AE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A415B8771C511457005B1AE3 = {
+			isa = PBXGroup;
+			children = (
+				A415B8871C511458005B1AE3 /* Project Header CMT */,
+				A415B8821C511458005B1AE3 /* Frameworks */,
+				A415B8811C511458005B1AE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A415B8811C511458005B1AE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A415B8801C511458005B1AE3 /* Project Header CMT.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A415B8821C511458005B1AE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4D0C3FA1C514D7000D71AA4 /* Carbon.framework */,
+				A415B8831C511458005B1AE3 /* AppKit.framework */,
+				A415B8851C511458005B1AE3 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A415B8871C511458005B1AE3 /* Project Header CMT */ = {
+			isa = PBXGroup;
+			children = (
+				A415B88B1C511458005B1AE3 /* ProjectHeaderCMT.h */,
+				A415B88C1C511458005B1AE3 /* ProjectHeaderCMT.m */,
+				A415B88E1C511458005B1AE3 /* NSObject_Extension.h */,
+				A415B88F1C511458005B1AE3 /* NSObject_Extension.m */,
+				A415B8911C511458005B1AE3 /* Info.plist */,
+				A4C316951C5152A900C8CE8D /* OCCategory */,
+				A4D0C3F61C514D3900D71AA4 /* KeyboardHelper */,
+				A415B8881C511458005B1AE3 /* Supporting Files */,
+			);
+			path = "Project Header CMT";
+			sourceTree = "<group>";
+		};
+		A415B8881C511458005B1AE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A415B8891C511458005B1AE3 /* Project Header CMT.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4C316951C5152A900C8CE8D /* OCCategory */ = {
+			isa = PBXGroup;
+			children = (
+				A4C316961C5152A900C8CE8D /* NSString+PDRegex */,
+				A4C316991C5152A900C8CE8D /* NSString+VVSyntax */,
+				A4C3169C1C5152A900C8CE8D /* NSString+VVTextGetter */,
+				A4C3169F1C5152A900C8CE8D /* NSTextView+VVTextGetter */,
+				A4C316A21C5152A900C8CE8D /* VVTextResult.h */,
+				A4C316A31C5152A900C8CE8D /* VVTextResult.m */,
+			);
+			path = OCCategory;
+			sourceTree = "<group>";
+		};
+		A4C316961C5152A900C8CE8D /* NSString+PDRegex */ = {
+			isa = PBXGroup;
+			children = (
+				A4C316971C5152A900C8CE8D /* NSString+PDRegex.h */,
+				A4C316981C5152A900C8CE8D /* NSString+PDRegex.m */,
+			);
+			path = "NSString+PDRegex";
+			sourceTree = "<group>";
+		};
+		A4C316991C5152A900C8CE8D /* NSString+VVSyntax */ = {
+			isa = PBXGroup;
+			children = (
+				A4C3169A1C5152A900C8CE8D /* NSString+VVSyntax.h */,
+				A4C3169B1C5152A900C8CE8D /* NSString+VVSyntax.m */,
+			);
+			path = "NSString+VVSyntax";
+			sourceTree = "<group>";
+		};
+		A4C3169C1C5152A900C8CE8D /* NSString+VVTextGetter */ = {
+			isa = PBXGroup;
+			children = (
+				A4C3169D1C5152A900C8CE8D /* NSString+VVTextGetter.h */,
+				A4C3169E1C5152A900C8CE8D /* NSString+VVTextGetter.m */,
+			);
+			path = "NSString+VVTextGetter";
+			sourceTree = "<group>";
+		};
+		A4C3169F1C5152A900C8CE8D /* NSTextView+VVTextGetter */ = {
+			isa = PBXGroup;
+			children = (
+				A4C316A01C5152A900C8CE8D /* NSTextView+VVTextGetter.h */,
+				A4C316A11C5152A900C8CE8D /* NSTextView+VVTextGetter.m */,
+			);
+			path = "NSTextView+VVTextGetter";
+			sourceTree = "<group>";
+		};
+		A4D0C3F61C514D3900D71AA4 /* KeyboardHelper */ = {
+			isa = PBXGroup;
+			children = (
+				A4D0C3F71C514D3900D71AA4 /* VVKeyboardEventSender.h */,
+				A4D0C3F81C514D3900D71AA4 /* VVKeyboardEventSender.m */,
+			);
+			path = KeyboardHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A415B87F1C511457005B1AE3 /* Project Header CMT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A415B8941C511458005B1AE3 /* Build configuration list for PBXNativeTarget "Project Header CMT" */;
+			buildPhases = (
+				A415B87C1C511457005B1AE3 /* Sources */,
+				A415B87D1C511457005B1AE3 /* Resources */,
+				A415B87E1C511457005B1AE3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project Header CMT";
+			productName = "Project Header CMT";
+			productReference = A415B8801C511458005B1AE3 /* Project Header CMT.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A415B8781C511457005B1AE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "iOS Dev Group";
+				TargetAttributes = {
+					A415B87F1C511457005B1AE3 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = A415B87B1C511457005B1AE3 /* Build configuration list for PBXProject "Project Header CMT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A415B8771C511457005B1AE3;
+			productRefGroup = A415B8811C511458005B1AE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A415B87F1C511457005B1AE3 /* Project Header CMT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A415B87D1C511457005B1AE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A415B88A1C511458005B1AE3 /* Project Header CMT.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A415B87C1C511457005B1AE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A415B88D1C511458005B1AE3 /* ProjectHeaderCMT.m in Sources */,
+				A4C316A81C5152A900C8CE8D /* VVTextResult.m in Sources */,
+				A4D0C3F91C514D3900D71AA4 /* VVKeyboardEventSender.m in Sources */,
+				A415B8901C511458005B1AE3 /* NSObject_Extension.m in Sources */,
+				A4C316A71C5152A900C8CE8D /* NSTextView+VVTextGetter.m in Sources */,
+				A4C316A61C5152A900C8CE8D /* NSString+VVTextGetter.m in Sources */,
+				A4C316A51C5152A900C8CE8D /* NSString+VVSyntax.m in Sources */,
+				A4C316A41C5152A900C8CE8D /* NSString+PDRegex.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A415B8921C511458005B1AE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		A415B8931C511458005B1AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		A415B8951C511458005B1AE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = "Project Header CMT/Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.punchh.Project-Header-CMT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		A415B8961C511458005B1AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = "Project Header CMT/Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.punchh.Project-Header-CMT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A415B87B1C511457005B1AE3 /* Build configuration list for PBXProject "Project Header CMT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A415B8921C511458005B1AE3 /* Debug */,
+				A415B8931C511458005B1AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A415B8941C511458005B1AE3 /* Build configuration list for PBXNativeTarget "Project Header CMT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A415B8951C511458005B1AE3 /* Debug */,
+				A415B8961C511458005B1AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A415B8781C511457005B1AE3 /* Project object */;
+}
